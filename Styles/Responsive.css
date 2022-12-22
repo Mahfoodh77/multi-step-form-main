@@ -1,0 +1,152 @@
+@media  screen and (max-width:900px) {
+    .container{
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        box-shadow: 0px 0px 0px;
+        border-radius: 0;
+    }
+
+    .sidebar{
+        width: 100%;
+        height: 30%;
+        background-image: url(/assets/images/bg-sidebar-mobile.svg);
+        background-size: cover;
+        display: flex;
+        border-radius: 0px;
+        justify-content: center;
+    }
+
+    .sidebar ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: -25px;
+    }
+
+    .sidebar ul li .side-content{
+        display: none;
+    }
+
+    .sidebar .list-num{
+        margin: 0 20px;
+        margin-top: -100px;
+    }
+
+    .step-one-container, .step-two-container,
+    .step-three-container,.step-four-container,.thankYou-container{
+        max-width: 90%;
+        width: 85%;
+        height: 70vh;
+        background-color: white;
+        padding:  10px 20px;
+        margin: 0 auto;
+        margin-top: -100px;
+        border-radius: 10px;
+        box-shadow: #333 5px 5px 15px;
+    }
+
+    .btns{
+        width: 60%;
+        padding: 10px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .content{
+        display: none;
+    }
+
+    .attribution{
+        display: none;
+    }
+    
+    .plans-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .plans{
+        width: 90%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        padding:0 5px ;
+        margin: 5px auto;
+    }
+
+    .plan-y-hidden{
+        display: none;
+     }
+
+     .btn-container{
+        width: 100%;
+        margin-top: 30px ;
+        padding: 0;
+     }
+
+     .features{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        width: 100%;
+        margin: 10px auto;
+     }
+
+     .features-container{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 20px;
+     }
+
+     .feature-active{
+        border: 1px solid var(--DarkBlue);
+     }
+
+     
+     .info-content{
+         transform: translateX(55px);
+         display: flex;
+         flex-direction: column;
+         padding: 0;
+    }
+
+    .header-feature{
+        font-size: 15px;
+    }
+
+    .service-p{
+        font-size: 10px;
+    }
+
+    .btn-container3{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 17%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .btn-container4{
+        width: 100%;
+        padding: 0;
+        position: relative;
+        top: 20%;
+        left: 0;
+    }
+
+    .thankYou-container {
+        padding: 5px;
+    }
+        
+        
+    .content{
+            display: none;
+    }
+}
