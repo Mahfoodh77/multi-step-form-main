@@ -44,7 +44,7 @@ body{
 
 .sidebar{
     width: 30%;
-    background: url(assets/images/bg-sidebar-desktop.svg);
+    background: url(../assets/images/bg-sidebar-desktop.svg);
     background-size: cover;
     border-radius: 10px;
     color: white;
