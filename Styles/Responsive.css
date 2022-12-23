@@ -149,4 +149,8 @@
     .content{
             display: none;
     }
+
+    .link{
+        display: none;
+    }
 }
