@@ -15,27 +15,28 @@ function falid(){
    if(inputs[0].value === ""){
     errorFeild[0].classList.add('error-feild-both')
     inputs[0].classList.add('input-error')
-    };
+    }else{
+        errorFeild[0].classList.remove('error-feild-both')
+        inputs[0].classList.remove('input-error')
+    }
     if(inputs[1].value === ""){
         errorFeild[1].classList.add('error-feild-both')
         inputs[1].classList.add('input-error')
-    };
+    }else{
+        errorFeild[1].classList.remove('error-feild-both')
+        inputs[1].classList.remove('input-error')
+    }
     if(inputs[2].value === ""){
         errorFeild[2].classList.add('error-feild-both')
         inputs[2].classList.add('input-error')
     }else{
-        errorFeild[0].classList.remove('error-feild-both')
-        inputs[0].classList.remove('input-error')
-
-        errorFeild[1].classList.remove('error-feild-both')
-        inputs[1].classList.remove('input-error')
-
         errorFeild[2].classList.remove('error-feild-both')
         inputs[2].classList.remove('input-error')
+    listActive1()
+    hideCardOne()
+   }
 
-       listActive1()
-       hideCardOne()
-    }
+    
 }
 
 
@@ -219,8 +220,8 @@ const goBackLast = document.querySelector('#goBackButton')
 goBackLast.addEventListener('click',()=>{
     stepTwo.classList.remove('content')
     stepThree.classList.add('content')
-    listNumber[1].classList.remove('lists-active')    
-    listNumber[2].classList.add('lists-active')
+    listNumber[2].classList.remove('lists-active')    
+    listNumber[1].classList.add('lists-active')
 })
 
 
